@@ -1,0 +1,106 @@
+/* CSS Document */
+body
+{
+	background-color:#FFC;
+}
+table
+{
+	background-color:#FFF;	
+}
+.circle
+{
+	height:50px;
+	width:50px;
+	border-radius:50% 50% 50% 50%;	
+}
+.border
+{
+	border-style:solid;
+	border-width:thin;
+	border-color:#999;	
+}
+.border_radius
+{
+	border-style:solid;
+	border-width:thin;
+	border-color:#999;	
+	border-radius:25px
+}
+.main_heading
+{
+	font-size:26px;
+	font-weight:bolder;
+	color:#00F;	
+}
+.sub_heading
+{
+	font-size:23px;
+	font-weight:bold;
+	color:#06F;	
+}
+.msg
+{
+	font-size:24px;
+	font-weight:bold;
+	color:#F00;	
+}
+.msg_error
+{
+	font-size:18px;
+	font-weight:bold;
+	color:#F00;	
+}
+.normal_text
+{
+	font-size:19px;
+	font-weight:600;
+
+}
+.textbox
+{
+	width:95%;
+	height:25px;
+	background-color:#CCC;
+	border-radius:10px;	
+}
+.textarea
+{
+	width:95%;
+	height:100px;
+	background-color:#CCC;
+	border-radius:10px;	
+}
+.button
+{
+	width:90px;
+	height:30px;	
+	border-radius:10px;
+}
+.buttonstyle
+{ 
+	background-color:#73C6E6;
+	border:#06F 1px solid;
+	border-radius:20px;
+	color:#FFF;
+	padding:5px 10px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.buttonstyle:hover
+{ 
+	
+	border:#06F 1px solid;
+	 cursor: pointer;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  
+	background-color:#2C9398;
+	color:#FFF;
+}
+.glossyheading
+{
+	background-color:#F90;
+	font-size:26px;
+	font-weight:bolder;
+	color: #FFF;
+}
